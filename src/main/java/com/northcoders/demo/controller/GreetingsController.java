@@ -14,7 +14,7 @@ public class GreetingsController {
         return "Hello Everyone!";
     }
 
-    Person person = new Person("Tawa", "testing@testing", 21);
+    Person person = new Person("Tawa", "testing@testing.co.uk", 21);
 
     // Automatically serialised into a JSON object by the Jackson library package.
     @GetMapping("/person")
